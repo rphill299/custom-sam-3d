@@ -1,6 +1,6 @@
 # C-SAM 3D
 
-[[Paper]](https://github.com/rphill299/custom-sam-3d/blob/main/custom_sam3d/paper_draft.pdf)
+[[Paper]](https://github.com/rphill299/custom-sam-3d/blob/main/project/paper_draft.pdf)
 [[MONAI Framework]](https://monai.io/)
 [[MONAI Tutorial]](https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/brats_segmentation_3d.ipynb)
 [[Medical Decathlon Datasets]](http://medicaldecathlon.com/)
