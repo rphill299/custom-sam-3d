@@ -6,6 +6,8 @@
 [[Medical Decathlon Datasets]](http://medicaldecathlon.com/)
 [[BraTS Challenge]](https://www.med.upenn.edu/cbica/brats/)
 
+See a problem? [Open an issue](https://github.com/rphill299/custom-sam-3d/issues/new)
+
 C-SAM 3D is a model architecture developed for segmentation tasks on multi-channel 3D volumes, specifically brain tumor segmentation.  We developed C-SAM within an existing brain tumor segmentation tutorial and we used 2016-17 BraTS data for training and testing.
 
 ![prediction input](/photos/pred_input.png)
