@@ -1,17 +1,24 @@
-# C-SAM 3D
+# C-SAM3D
 
 [[Paper]](https://github.com/rphill299/custom-sam-3d/blob/main/project/paper_draft.pdf)
+[[SAM3D Paper]](https://arxiv.org/html/2309.03493v4)
+[[BraTS Challenge]](https://www.med.upenn.edu/cbica/brats/)
 [[MONAI Framework]](https://monai.io/)
 [[MONAI Tutorial]](https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/brats_segmentation_3d.ipynb)
 [[Medical Decathlon Datasets]](http://medicaldecathlon.com/)
-[[BraTS Challenge]](https://www.med.upenn.edu/cbica/brats/)
+
 
 See a problem? [Open an issue](https://github.com/rphill299/custom-sam-3d/issues/new)
 
-C-SAM 3D is a model architecture developed for segmentation tasks on multi-channel 3D volumes, specifically brain tumor segmentation.  We developed C-SAM within an existing brain tumor segmentation tutorial and we used 2016-17 BraTS data for training and testing.
+C-SAM3D is a model architecture developed for segmentation tasks on multi-channel 3D volumes, specifically brain tumor segmentation within MRIs.  
 
+The C-SAM3D model is inspired by the SAM3D model, which encodes 3D medical images slice-by-slice as 2D images, then combines and decodes all slices into a 3D output volume of voxel-wise predictions.  We developed C-SAM3D within an existing brain tumor segmentation tutorial using 2016-17 BraTS data for training and testing.
+
+### Inputs
 ![prediction input](/photos/pred_input.png)
+### Expected Outputs
 ![prediction label](/photos/pred_label.png)
+### C-SAM3D Predictions
 ![prediction output](/photos/pred_output.png)
 
 ## Approach
