@@ -1,6 +1,6 @@
 # C-SAM3D
 
-[[Paper]](https://github.com/rphill299/custom-sam-3d/blob/main/project/paper_draft.pdf)
+[[My Paper]](https://github.com/rphill299/custom-sam-3d/blob/main/project/paper_draft.pdf)
 [[SAM3D Paper]](https://arxiv.org/html/2309.03493v4)
 [[BraTS Challenge]](https://www.med.upenn.edu/cbica/brats/)
 [[MONAI Framework]](https://monai.io/)
