@@ -1,0 +1,24 @@
+name: custom-sam-3d
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - scikit-learn
+  - pydicom
+  - pip:
+    - monai-weekly[nibabel, tqdm]
+
+  # - nibabel
+  # - monai
+  # - tqdm
